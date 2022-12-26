@@ -82,7 +82,8 @@ h1,h2,h3,h4,h5,h6{
 }
 .contentsection{
     display: flex;
-    padding: 1rem 8rem;
+    padding: 1rem 0rem 2rem 0rem;
+    margin: 0rem 8rem;
     border-bottom: 1px solid #464a4e;
 }
 .skills{
@@ -92,8 +93,20 @@ h1,h2,h3,h4,h5,h6{
 .skills h2{
     margin-bottom: 1rem;
 }
-.skill{
+.skillandprog{
+    display: flex;
+    align-items: center;
     margin-bottom: 1rem;
+}
+.skill{
+    margin-right: .5rem;
+}
+.rect{
+    height: 5px;
+    width: 300px;
+    padding: 1px;
+    border: 1px solid black;
+    background: #464a4e;
 }
 .experiences{
     padding-left: 8rem;
@@ -126,7 +139,31 @@ h1,h2,h3,h4,h5,h6{
 }
 .educationandlanguage{
     min-width: 35%;
+    border-right: 1px solid #464a4e;
+}
+.education{
+   margin-bottom: 1rem; 
+}
+.uni{
+    margin-top: 1rem;
+}
+.language{
+
+}
+.language h2{
+    margin-bottom: 1rem;
+}
+.langandprog{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.lang{
+    margin-right: .5rem;
 }
 .reference{
     padding-left: 8rem;
+}
+.reference h3{
+    margin-top: 1rem;
 }
