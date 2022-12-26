@@ -105,17 +105,28 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 1rem;
 }
 .experience h4{
-    margin-bottom: .2rem;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: .3rem;
 }
 .experience h5{
-    margin-bottom: .2rem;
+    margin-bottom: .3rem;
 }
 .experience h6{
-    margin-bottom: .2rem;
+    margin-bottom: .3rem;
 }
 .experience ul{
     padding-left: 1rem;
 }
 .experience ul li{
     margin-top: .5rem;
+}
+.educations{
+    display: flex;
+    margin: 2rem 8rem;
+}
+.educationandlanguage{
+    min-width: 35%;
+}
+.reference{
+    padding-left: 8rem;
 }
