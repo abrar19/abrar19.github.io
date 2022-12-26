@@ -100,6 +100,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .skill{
     margin-right: .5rem;
+    min-width: 100px;
 }
 .rect{
     height: 5px;
@@ -160,6 +161,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .lang{
     margin-right: .5rem;
+    min-width: 100px;
 }
 .reference{
     padding-left: 8rem;
