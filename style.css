@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 8rem;
+    padding-left: 16rem;
 }
 .name{
     font-family: 'Raleway', sans-serif;
@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: .4rem;
 }
 .title-img{
-    padding-right: 8rem;
+    padding-right: 16rem;
     height: 10rem;
     width: 10rem;
 
@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .introsection{
     display: flex;
-    margin: 1rem 8rem;
+    margin: 1rem 16rem;
     border-bottom: 1px solid #464a4e;
     padding-bottom: 2rem;
 }
@@ -83,11 +83,11 @@ h1,h2,h3,h4,h5,h6{
 .contentsection{
     display: flex;
     padding: 1rem 0rem 2rem 0rem;
-    margin: 0rem 8rem;
+    margin: 0rem 16rem;
     border-bottom: 1px solid #464a4e;
 }
-.skills{
-    min-width: 35%;
+.skills {
+    width: 35%;
     border-right: 1px solid #464a4e;
 }
 .skills h2{
@@ -104,12 +104,12 @@ h1,h2,h3,h4,h5,h6{
 }
 .rect{
     height: 5px;
-    width: 300px;
+    width: 200px;
     padding: 1px;
     border: 1px solid black;
     background: #464a4e;
 }
-.experiences{
+.experiences {
     padding-left: 8rem;
 }
 .experiences h2{
@@ -136,10 +136,10 @@ h1,h2,h3,h4,h5,h6{
 }
 .educations{
     display: flex;
-    margin: 2rem 8rem;
+    margin: 2rem 16rem;
 }
 .educationandlanguage{
-    min-width: 35%;
+    width: 35%;
     border-right: 1px solid #464a4e;
 }
 .education{
