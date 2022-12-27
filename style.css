@@ -134,6 +134,10 @@ h1,h2,h3,h4,h5,h6{
 .experience ul li{
     margin-top: .5rem;
 }
+.experience ul li a{
+    text-decoration: none;
+    color: rgb(32, 149, 188);
+}
 .educations{
     display: flex;
     margin: 2rem 16rem;
