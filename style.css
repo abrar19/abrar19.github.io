@@ -243,7 +243,6 @@ h1,h2,h3,h4,h5,h6{
 /* MOBILE SCREEN */
 
 @media only screen and (max-width: 480px){
-    .container{}
 .headersection{
     min-height: 10rem;
     display: block;
@@ -303,7 +302,7 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 1rem;
 }
 .aboutmetext{
-    max-width: 20rem;
+    max-width: 30rem;
     letter-spacing: .2rem;
     text-align: center;
 }
@@ -359,7 +358,7 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: .3rem;
 }
 .experience ul{
-    padding-left: 1rem;
+    padding: 0rem .5rem;
 }
 .experience ul li{
     margin-top: .5rem;
