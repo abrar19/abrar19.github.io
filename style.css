@@ -12,6 +12,31 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: .2rem;
 }
 .container{}
+
+/* Maintenance Message Start*/
+.message{
+    height: 20px;
+}
+.maintenance{
+    color: darkred;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    animation: fontPop 1s infinite;
+}
+@keyframes fontPop{
+    0% {
+        font-size: 16px;
+    }
+    50% {
+        font-size: 20px;
+    }
+    100% {
+        font-size: 16px;
+    }
+}
+/* Maintenance Message End*/
+
 .headersection{
     min-height: 10rem;
     display: flex;
